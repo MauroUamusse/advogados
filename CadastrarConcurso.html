@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css">
+	   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <!--! END: Bootstrap CSS-->
+    <!--! BEGIN: Vendors CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/css/select2-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/css/datepicker.min.css">
+    <!--! END: Vendors CSS-->
+    <!--! BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/theme.min.css">
+	
+	<title>Dashboard</title>
+</head>
+<body>
+	
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="" class="brand"><i class='bx bxs-smile icon'></i> Dashboard</a>
+		<ul class="side-menu">
+			<li><a href="index.html" class="active"><i class='bx bxs-dashboard icon' ></i> Dashboard</a></li>
+			<!--<li class="divider" data-text="main">Main</li>-->
+			<li>
+				<a href="index.html"><i class='bx bxs-inbox icon' ></i> Concurso <i class='bx bx-chevron-right icon-right' ></i></a>
+				<ul class="side-dropdown">
+					<li><a href="">Gerenciar</a></li>
+				</ul>
+			</li>
+
+			<li>
+				<a href="index.html"><i class='bx bxs-notepad icon' ></i>  Contabilidade <i class='bx bx-chevron-right icon-right' ></i></a>
+				<ul class="side-dropdown">
+
+					<a href="CadastrarConta.html">Contas</a>
+                                </li>
+                                <li class="submenu-item ">
+                                    <a href="">Reajuste de Contas</a>
+                                </li>
+                                <li class="submenu-item ">
+                                    <a href="">Despesas</a>
+                                </li>
+                                <li class="submenu-item ">
+                                    <a href="">Transações</a>
+                                </li>
+                                <li class="submenu-item ">
+                                    <a href="">Nota de Crédito</a>
+                                </li>
+                                <li class="submenu-item ">
+                                    <a href="">Nota de Débito</a>
+				</ul>
+			</li>
+
+			<li>
+				<a href="index.html"><i class='bx bxs-notepad icon' ></i> Clientes  <i class='bx bx-chevron-right icon-right' ></i></a>
+				<ul class="side-dropdown">
+					<li><a href="CadastrarCliente.html">Cadastrar</a></li>
+					<li><a href="">Gerenciamento</a></li>
+				</ul>
+			</li>
+			<li>
+
+
+			<li>
+				<a href="index.html"><i class='bx bxs-notepad icon' ></i> Documentos  <i class='bx bx-chevron-right icon-right' ></i></a>
+				<ul class="side-dropdown">
+					<li><a href="">Gerenciamento</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#"><i class='bx bxs-notepad icon' ></i> Faturação  <i class='bx bx-chevron-right icon-right' ></i></a>
+				<ul class="side-dropdown">
+					<li><a href="">Cotação</a></li>
+					<li><a href="">Factura</a></li>
+					<li><a href="">Guia de Entrega</a></li>
+					<li><a href="">Guia de Marcha</a></li>
+					<li><a href="">Recibo</a></li>
+				</ul>
+			</li>
+			
+			<li>
+				<a href="#"><i class='bx bxs-notepad icon' ></i> Gestão Património <i class='bx bx-chevron-right icon-right' ></i></a>
+				<ul class="side-dropdown">
+					<li><a href="">Entrada de Material</a></li>
+					<li><a href="">Saida de Material</a></li>
+					<li><a href="">Requisição</a></li>
+				</ul>
+			</li>
+			
+				<li>
+				<a href="#"><i class='bx bxs-notepad icon' ></i> Processo <i class='bx bx-chevron-right icon-right' ></i></a>
+				<ul class="side-dropdown">
+					<li><a href="CadastratProcesso.html">Cadastrar</a></li>
+					<li><a href="">Gerenciar</a></li>
+				</ul>
+			</li>
+
+				<li>
+				<a href="#"><i class='bx bxs-notepad icon' ></i> Recursos Humanos <i class='bx bx-chevron-right icon-right' ></i></a>
+				<ul class="side-dropdown">
+					<ul class="nxl-submenu">
+                            <li class="nxl-item"><a class="nxl-link" href="CadastrarConta.html">Contas bancarias</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="CadastrarFuncionario.html">Gestão de Funcionários</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="">Adiantamentos Salariais</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="">Empréstimos</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="">Processamento Salarial</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="">Departamentos</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="">Cargos</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="">Subsídios</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="">Descontos</a></li>
+                        </ul>
+				</ul>
+			</li>
+
+
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+
+	<!-- NAVBAR -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu toggle-sidebar' ></i>
+			<form action="#">
+				<div class="form-group">
+					<input type="text" placeholder="Search...">
+					<i class='bx bx-search icon' ></i>
+				</div>
+			</form>
+			<a href="#" class="nav-link">
+				<i class='bx bxs-bell icon' ></i>
+				<span class="badge">5</span>
+			</a>
+			<a href="#" class="nav-link">
+				<i class='bx bxs-message-square-dots icon' ></i>
+				<span class="badge">8</span>
+			</a>
+			<span class="divider"></span>
+			<div class="profile">
+				<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVvcGxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+				<ul class="profile-link">
+					<li><a href=""><i class='bx bxs-user-circle icon' ></i> Perfil</a></li>
+					<li><a href=""><i class='bx bxs-cog' ></i> Definições</a></li>
+					<li><a href=""><i class='bx bxs-log-out-circle' ></i> Logout</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+			<div class="main-content">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card border-top-0">
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="profileTab" role="tabpanel">
+                                    <div class="card-body personal-info">
+                                        
+                                         <div class="mb-4 d-flex align-items-center justify-content-between">
+                                            <h5 class="fw-bold mb-0 me-4">
+                                                <span class="d-block mb-2">Cadastrar dados do Concurso:</span>
+                                            </h5>
+                                        </div>
+                                        <div class="row mb-4 align-items-center">
+                                            <div class="col-lg-4">
+                                                <label for="fullnameInput" class="fw-semibold">Nome da Instituição : </label>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class="feather-user"></i></div>
+                                                    <input type="text" class="form-control" name="fullnameInput" placeholder="Nome da Instituição">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-4 align-items-center">
+                                            <div class="col-lg-4">
+                                                <label for="mailInput" class="fw-semibold">Email: </label>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class="feather-mail"></i></div>
+                                                    <input type="text" class="form-control" name="mailInput" placeholder="Email">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-4 align-items-center">
+                                            <div class="col-lg-4">
+                                                <label for="phoneInput" class="fw-semibold">Telefone: </label>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class="feather-phone"></i></div>
+                                                    <input type="text" class="form-control" name="phoneInput" placeholder="Telefone">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-4 align-items-center">
+                                            <div class="col-lg-4">
+                                                <label for="designationInput" class="fw-semibold">Documento: </label>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class="feather-briefcase"></i></div>
+                                                    <input type="text" class="form-control" id="designationInput" placeholder="Documento">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-4 align-items-center">
+                                            <div class="col-lg-4">
+                                                <label for="addressInput_2" class="fw-semibold">Endereço: </label>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class="feather-map-pin"></i></div>
+                                                    <textarea class="form-control" id="addressInput_2" cols="30" rows="3" placeholder="Endereço"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>                                       
+                                    </div>
+                                    <hr class="my-0">
+                                    <div class="card-body additional-info">
+                                        <div class="mb-4 d-flex align-items-center justify-content-between">
+                                            <h5 class="fw-bold mb-0 me-4">
+                                                <span class="d-block mb-2">Informaçao Adicional:</span>
+                                            </h5>
+                                        </div>
+                                        <div class="row mb-4 align-items-center">
+                                            <div class="col-lg-4">
+                                                <label for="dateofBirth" class="fw-semibold">Data de Lançamento: </label>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class="feather-calendar"></i></div>
+                                                    <input class="form-control" id="dateofBirth" placeholder="Data de Lançamento">
+                                                </div>
+                                            </div>
+                                        </div>
+
+										  <div class="row mb-4 align-items-center">
+                                            <div class="col-lg-4">
+                                                <label for="dateofBirth" class="fw-semibold">Data de Abertura: </label>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class="feather-calendar"></i></div>
+                                                    <input class="form-control" id="dateofBirth" placeholder="Data da Abertura">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row mb-4 align-items-center">
+                                            <div class="col-lg-4">
+                                                <label class="fw-semibold">Estado do Concurso: </label>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <select class="form-control" data-select2-selector="status">
+                                                    <option value="success" data-bg="bg-success" selected>Activo</option>
+                                                    <option value="warning" data-bg="bg-warning">Inativo</option>
+                                                    <option value="danger" data-bg="bg-danger">Nulo</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-0 align-items-center">
+                                            <div class="col-lg-4">
+                                                <label class="fw-semibold">Tipo de Concurso: </label>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <select class="form-control" data-select2-selector="privacy">
+                                                    <option value="everyone" data-icon="feather-lock" selected>Privado</option>
+                                                    <option value="onlyme" data-icon="feather-globe">Publico</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <p></p>
+                                        <p></p>
+                                         <div class="row mb-4 align-items-center">
+                                            <div class="col-lg-4">
+                                                <label for="fullnameInput" class="fw-semibold">Documento: </label>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <div class="input-group">
+
+                                                     <label class="input-group-text" for="inputGroupFile01"><i
+                                                                class="bi bi-upload"></i></label>
+                                                        <input type="file" class="form-control" id="inputGroupFile01">
+                                                </div>
+                                            </div>
+                                        </div> 
+
+                                                    
+                                         <button type="submit" class="btn btn-success" name="submit">Cadastrar</button>
+                        
+                            </form>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- NAVBAR -->
+
+	<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+	<script src="script.js"></script>
+	    <script src="assets/vendors/js/vendors.min.js"></script>
+    <!-- vendors.min.js {always must need to be top} -->
+    <script src="assets/vendors/js/select2.min.js"></script>
+    <script src="assets/vendors/js/select2-active.min.js"></script>
+    <script src="assets/vendors/js/datepicker.min.js"></script>
+    <script src="assets/vendors/js/lslstrength.min.js"></script>
+    <!--! END: Vendors JS !-->
+    <!--! BEGIN: Apps Init  !-->
+    <script src="assets/js/common-init.min.js"></script>
+    <script src="assets/js/customers-create-init.min.js"></script>
+    <!--! END: Apps Init !-->
+    <!--! BEGIN: Theme Customizer  !-->
+    <script src="assets/js/theme-customizer-init.min.js"></script>
+</body>
+</html>
