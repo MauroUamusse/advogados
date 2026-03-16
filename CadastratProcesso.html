@@ -21,7 +21,7 @@
 <body>
 	
 	<!-- SIDEBAR -->
-	<section id="sidebar">
+		<section id="sidebar">
 		<a href="" class="brand"><i class='bx bxs-smile icon'></i> Dashboard</a>
 		<ul class="side-menu">
 			<li><a href="index.html" class="active"><i class='bx bxs-dashboard icon' ></i> Dashboard</a></li>
@@ -30,19 +30,19 @@
 				<a href="index.html"><i class='bx bxs-inbox icon' ></i> Concurso <i class='bx bx-chevron-right icon-right' ></i></a>
 				<ul class="side-dropdown">
 					<li><a href="CadastrarConcurso.html">Cadastrar</a></li>
-					<li><a href="#">Gerenciar</a></li>
+					<li><a href="GerenciarConcurso.html">Gerenciar</a></li>
 				</ul>
 			</li>
 
 			<li>
-				<a href="index.html"><i class='bx bxs-notepad icon' ></i>  Contabilidade <i class='bx bx-chevron-right icon-right' ></i></a>
+				<a href="#"><i class='bx bxs-notepad icon' ></i>  Contabilidade <i class='bx bx-chevron-right icon-right' ></i></a>
 				<ul class="side-dropdown">
 
 					<a href="CadastrarConta.html">Contas</a>
                                 </li>
                                 <li class="submenu-item ">
                                     <a href="">Reajuste de Contas</a>
-                                </li>
+								</li>
                                 <li class="submenu-item ">
                                     <a href="">Despesas</a>
                                 </li>
@@ -58,22 +58,22 @@
 			</li>
 
 			<li>
-				<a href="index.html"><i class='bx bxs-notepad icon' ></i> Clientes  <i class='bx bx-chevron-right icon-right' ></i></a>
+				<a href="#"><i class='bx bxs-notepad icon' ></i> Clientes  <i class='bx bx-chevron-right icon-right' ></i></a>
 				<ul class="side-dropdown">
-					<li><a href="">Cadastrar</a></li>
-					<li><a href="">Gerenciamento</a></li>
+					<li><a href="CadastrarCliente.html">Cadastrar</a></li>
+					<li><a href="GerenciarCliente.html">Gerenciamento</a></li>
 				</ul>
 			</li>
 			<li>
 
 
 			<li>
-				<a href="index.html"><i class='bx bxs-notepad icon' ></i> Documentos  <i class='bx bx-chevron-right icon-right' ></i></a>
+				<a href="#"><i class='bx bxs-notepad icon' ></i> Documentos  <i class='bx bx-chevron-right icon-right' ></i></a>
 				<ul class="side-dropdown">
-					<li><a href="">Gerenciamento</a></li>
+					<li><a href="fms/login.php">Gerenciamento</a></li>
 				</ul>
 			</li>
-			<li>
+			<li>				
 				<a href="#"><i class='bx bxs-notepad icon' ></i> Faturação  <i class='bx bx-chevron-right icon-right' ></i></a>
 				<ul class="side-dropdown">
 					<li><a href="">Cotação</a></li>
@@ -81,6 +81,7 @@
 					<li><a href="">Guia de Entrega</a></li>
 					<li><a href="">Guia de Marcha</a></li>
 					<li><a href="">Recibo</a></li>
+					<li><a href="">Serviços</a></li>
 				</ul>
 			</li>
 			
@@ -96,8 +97,7 @@
 				<li>
 				<a href="#"><i class='bx bxs-notepad icon' ></i> Processo <i class='bx bx-chevron-right icon-right' ></i></a>
 				<ul class="side-dropdown">
-					<li><a href="">Cadastrar</a></li>
-					<li><a href="">Gerenciar</a></li>
+					<li><a href="GerenciarProcesso.html">Gerenciar</a></li>
 				</ul>
 			</li>
 
@@ -105,7 +105,7 @@
 				<a href="#"><i class='bx bxs-notepad icon' ></i> Recursos Humanos <i class='bx bx-chevron-right icon-right' ></i></a>
 				<ul class="side-dropdown">
 					<ul class="nxl-submenu">
-                           <li class="nxl-item"><a class="nxl-link" href="CadastrarConta.html">Contas bancarias</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="CategoriaFuncionario.html">Categorias</a></li>
                             <li class="nxl-item"><a class="nxl-link" href="CadastrarFuncionario.html">Gestão de Funcionários</a></li>
                             <li class="nxl-item"><a class="nxl-link" href="">Adiantamentos Salariais</a></li>
                             <li class="nxl-item"><a class="nxl-link" href="">Empréstimos</a></li>
@@ -128,17 +128,17 @@
 		<!-- NAVBAR -->
 		<nav>
 			<i class='bx bx-menu toggle-sidebar' ></i>
-			<form action="#">
+			<form action="">
 				<div class="form-group">
 					<input type="text" placeholder="Search...">
 					<i class='bx bx-search icon' ></i>
 				</div>
 			</form>
-			<a href="#" class="nav-link">
+			<a href="" class="nav-link">
 				<i class='bx bxs-bell icon' ></i>
 				<span class="badge">5</span>
 			</a>
-			<a href="#" class="nav-link">
+			<a href="" class="nav-link">
 				<i class='bx bxs-message-square-dots icon' ></i>
 				<span class="badge">8</span>
 			</a>
@@ -235,6 +235,30 @@
                                                 <div class="input-group">
                                                     <div class="input-group-text"><i class="feather-briefcase"></i></div>
                                                     <input type="text" class="form-control" id="designationInput" placeholder="Fase do Processo">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                         <div class="row mb-4 align-items-center">
+                                            <div class="col-lg-4">
+                                                <label for="designationInput" class="fw-semibold">Recursos: </label>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class="feather-briefcase"></i></div>
+                                                    <input type="text" class="form-control" id="designationInput" placeholder="Recursos">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                         <div class="row mb-4 align-items-center">
+                                            <div class="col-lg-4">
+                                                <label for="designationInput" class="fw-semibold">Acordo: </label>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class="feather-briefcase"></i></div>
+                                                    <input type="text" class="form-control" id="designationInput" placeholder="Acordo">
                                                 </div>
                                             </div>
                                         </div>
