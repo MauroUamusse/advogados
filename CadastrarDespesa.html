@@ -16,7 +16,7 @@
     <!--! BEGIN: Custom CSS-->
     <link rel="stylesheet" type="text/css" href="assets/css/theme.min.css">
 	
-	<title>Cadastrar Processo</title>
+	<title>Dashboard</title>
 </head>
 <body>
 	
@@ -167,179 +167,121 @@
                                         
                                          <div class="mb-4 d-flex align-items-center justify-content-between">
                                             <h5 class="fw-bold mb-0 me-4">
-                                                <span class="d-block mb-2">Cadastrar Processo:</span>
+                                                <span class="d-block mb-2">Cadastrar Despesa</span>
                                             </h5>
                                         </div>
-
-                                            <div class="row mb-0 align-items-center">
-                                            <div class="col-lg-4">
-                                                <label class="fw-semibold">Nome do Advogado Responsavel: </label>
-                                            </div>
-                                            <div class="col-lg-8">
-                                                <select class="form-control" data-select2-selector="privacy">
-                                                    <option value="everyone" data-icon="feather-lock" selected>Nome do Advogado</option>
-                                                    <option value="everyone" data-icon="feather-lock" selected>Nome 1</option>
-                                                    <option value="everyone" data-icon="feather-lock" selected>Nome 2</option>
-                                                    <option value="everyone" data-icon="feather-lock" selected>Nome 3</option>
-                                                    <option value="everyone" data-icon="feather-lock" selected>Nome do Advogado Cadastrado</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <p></p>
-                                        <p></p>
-
-                                        <div class="row mb-0 align-items-center">
-                                            <div class="col-lg-4">
-                                                <label class="fw-semibold">Nome do Cliente: </label>
-                                            </div>
-                                            <div class="col-lg-8">
-                                                <select class="form-control" data-select2-selector="privacy">
-                                                    <option value="everyone" data-icon="feather-lock" selected>Nome do Cliente</option>
-                                                    <option value="everyone" data-icon="feather-lock" selected>Nome 1</option>
-                                                    <option value="everyone" data-icon="feather-lock" selected>Nome 2</option>
-                                                    <option value="everyone" data-icon="feather-lock" selected>Nome 3</option>
-                                                    <option value="everyone" data-icon="feather-lock" selected>Nome do Cliente da Base de Dados</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <p></p>
-                                        <p></p>
-
                                         <div class="row mb-4 align-items-center">
                                             <div class="col-lg-4">
-                                                <label for="mailInput" class="fw-semibold">Email: </label>
+                                                <label for="fullnameInput" class="fw-semibold">Conta</label>
                                             </div>
                                             <div class="col-lg-8">
                                                 <div class="input-group">
-                                                    <div class="input-group-text"><i class="feather-mail"></i></div>
-                                                    <input type="text" class="form-control" name="mailInput" placeholder="Email">
+                                                    <div class="input-group-text"><i class="feather-user"></i></div>
+                                                    <input type="text" class="form-control" name="fullnameInput" placeholder="Nome da Instituição">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row mb-4 align-items-center">
+
+                                         <div class="row mb-4 align-items-center">
                                             <div class="col-lg-4">
-                                                <label for="phoneInput" class="fw-semibold">Telefone: </label>
+                                                <label for="fullnameInput" class="fw-semibold">Referencia</label>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class="feather-user"></i></div>
+                                                    <input type="text" class="form-control" name="fullnameInput" placeholder="Nome da Gestor">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                         <div class="row mb-4 align-items-center">
+                                            <div class="col-lg-4">
+                                                <label for="phoneInput" class="fw-semibold">Descricao</label>
                                             </div>
                                             <div class="col-lg-8">
                                                 <div class="input-group">
                                                     <div class="input-group-text"><i class="feather-phone"></i></div>
-                                                    <input type="text" class="form-control" name="phoneInput" placeholder="Telefone">
+                                                    <input type="text" class="form-control" name="phoneInput" placeholder="Numeros Telefonicos do Gestor/Banco">
                                                 </div>
                                             </div>
                                         </div>
-                                      
-                                        <div class="row mb-4 align-items-center">
+                                        
+                                          <div class="row mb-4 align-items-center">
                                             <div class="col-lg-4">
-                                                <label for="designationInput" class="fw-semibold">Fase do Processo: </label>
+                                                <label for="designationInput" class="fw-semibold">Observacao</label>
                                             </div>
                                             <div class="col-lg-8">
                                                 <div class="input-group">
                                                     <div class="input-group-text"><i class="feather-briefcase"></i></div>
-                                                    <input type="text" class="form-control" id="designationInput" placeholder="Fase do Processo">
+                                                    <input type="text" class="form-control" id="designationInput" placeholder="Numero de Conta">
                                                 </div>
                                             </div>
-                                        </div>
-
-                                         <div class="row mb-4 align-items-center">
+                                        </div>                                       
+                                        <div class="row mb-4 align-items-center">
                                             <div class="col-lg-4">
-                                                <label for="designationInput" class="fw-semibold">Recursos: </label>
+                                                <label for="designationInput" class="fw-semibold">Valor</label>
                                             </div>
                                             <div class="col-lg-8">
                                                 <div class="input-group">
                                                     <div class="input-group-text"><i class="feather-briefcase"></i></div>
-                                                    <input type="text" class="form-control" id="designationInput" placeholder="Recursos">
+                                                    <input type="text" class="form-control" id="designationInput" placeholder="NIB">
                                                 </div>
                                             </div>
-                                        </div>
-
-                                         <div class="row mb-4 align-items-center">
-                                            <div class="col-lg-4">
-                                                <label for="designationInput" class="fw-semibold">Acordo: </label>
-                                            </div>
-                                            <div class="col-lg-8">
-                                                <div class="input-group">
-                                                    <div class="input-group-text"><i class="feather-briefcase"></i></div>
-                                                    <input type="text" class="form-control" id="designationInput" placeholder="Acordo">
-                                                </div>
-                                            </div>
-                                        </div>
-
+                                        </div>                                                                                                        
                                         <div class="row mb-4 align-items-center">
                                             <div class="col-lg-4">
-                                                <label for="designationInput" class="fw-semibold">Numero do Processo: </label>
-                                            </div>
-                                            <div class="col-lg-8">
-                                                <div class="input-group">
-                                                    <div class="input-group-text"><i class="feather-briefcase"></i></div>
-                                                    <input type="text" class="form-control" id="designationInput" placeholder="Numero do Processo">
-                                                </div>
-                                            </div>
-                                        </div>
-                                       
-                                        <div class="row mb-4 align-items-center">
-                                            <div class="col-lg-4">
-                                                <label for="addressInput_2" class="fw-semibold">Detalhes do Processo: </label>
-                                            </div>
-                                            <div class="col-lg-8">
-                                                <div class="input-group">
-                                                    <div class="input-group-text"><i class="feather-map-pin"></i></div>
-                                                    <textarea class="form-control" id="addressInput_2" cols="30" rows="3" placeholder="Detalhes do Processo"></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
-                                       
-                                    
-                                                           
-                                        <div class="row mb-4 align-items-center">
-                                            <div class="col-lg-4">
-                                                <label for="dateofBirth" class="fw-semibold">Data de Cadastro: </label>
+                                                <label for="dateofBirth" class="fw-semibold">Data: </label>
                                             </div>
                                             <div class="col-lg-8">
                                                 <div class="input-group">
                                                     <div class="input-group-text"><i class="feather-calendar"></i></div>
-                                                    <input class="form-control" id="dateofBirth" placeholder="Data de Cadastro">
+                                                    <input class="form-control" id="dateofBirth" placeholder="Data da Abertura">
                                                 </div>
                                             </div>
-                                        </div>
-                                  
+                                        </div>										 
+                                        
                                         <div class="row mb-4 align-items-center">
                                             <div class="col-lg-4">
-                                                <label class="fw-semibold">Estado do Processo: </label>
+                                                <label class="fw-semibold">Metodo de Pagamento: </label>
                                             </div>
                                             <div class="col-lg-8">
                                                 <select class="form-control" data-select2-selector="status">
-                                                    <option value="success" data-bg="bg-success" selected>Activo</option>
-                                                    <option value="warning" data-bg="bg-warning">Inativo</option>
-                                                    <option value="danger" data-bg="bg-danger">Cancelado</option>
+                                                    <option value="success" data-bg="bg-success" selected>Monetario</option>
+                                                    <option value="warning" data-bg="bg-success">Cheque</option>
+                                                    <option value="danger" data-bg="bg-success">Transferencia Bancaria</option>
+                                                    <option value="danger" data-bg="bg-success">Carteira Movel</option>
                                                 </select>
                                             </div>
                                         </div>
-                                     
-                                        <p></p>
-                                        <p></p>
-                                         <div class="row mb-4 align-items-center">
+                                        <div class="row mb-0 align-items-center">
                                             <div class="col-lg-4">
-                                                <label for="fullnameInput" class="fw-semibold">Documento: </label>
+                                                <label class="fw-semibold">Categoria</label>
                                             </div>
                                             <div class="col-lg-8">
-                                                <div class="input-group">
-
-                                                     <label class="input-group-text" for="inputGroupFile01"><i
-                                                                class="bi bi-upload"></i></label>
-                                                        <input type="file" class="form-control" id="inputGroupFile01">
-                                                </div>
+                                                <select class="form-control" data-select2-selector="privacy">
+                                                    <option value="everyone" data-icon="feather-lock" selected>Interna</option>
+                                                    <option value="onlyme" data-icon="feather-globe">Externa</option>
+                                                </select>
                                             </div>
-                                        </div>                                                     
+                                        </div>
+
+                                        
+                                        <p></p>
+                                        <p></p>
+                                        
+
+                                                    
                                          <button type="submit" class="btn btn-success" name="submit">Cadastrar</button>
                         
-                            </form>
-                             </div>
-                      </div>
+                                        </form>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+            
 		</main>
 		<!-- MAIN -->
 	</section>

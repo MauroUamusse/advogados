@@ -164,136 +164,62 @@
                             <div class="tab-content">
                                 <div class="tab-pane fade show active" id="profileTab" role="tabpanel">
                                     <div class="card-body personal-info">
-                                        
                                          <div class="mb-4 d-flex align-items-center justify-content-between">
                                             <h5 class="fw-bold mb-0 me-4">
-                                                <span class="d-block mb-2">Cadastrar dados das Contas Bancarias:</span>
+                                                <span class="d-block mb-2">Reajuste de Contas</span>
                                             </h5>
                                         </div>
                                         <div class="row mb-4 align-items-center">
                                             <div class="col-lg-4">
-                                                <label for="fullnameInput" class="fw-semibold">Nome do Banco : </label>
+                                                <label for="fullnameInput" class="fw-semibold">Conta : </label>
                                             </div>
                                             <div class="col-lg-8">
                                                 <div class="input-group">
                                                     <div class="input-group-text"><i class="feather-user"></i></div>
-                                                    <input type="text" class="form-control" name="fullnameInput" placeholder="Nome da Instituição">
+                                                    <input type="text" class="form-control" name="fullnameInput" placeholder="Numero de Conta">
                                                 </div>
                                             </div>
                                         </div>
 
                                          <div class="row mb-4 align-items-center">
                                             <div class="col-lg-4">
-                                                <label for="fullnameInput" class="fw-semibold">Nome do Gestor : </label>
+                                                <label for="fullnameInput" class="fw-semibold">Valor : </label>
                                             </div>
                                             <div class="col-lg-8">
                                                 <div class="input-group">
                                                     <div class="input-group-text"><i class="feather-user"></i></div>
-                                                    <input type="text" class="form-control" name="fullnameInput" placeholder="Nome da Gestor">
+                                                    <input type="text" class="form-control" name="fullnameInput" placeholder="Valor">
                                                 </div>
                                             </div>
                                         </div>
 
                                          <div class="row mb-4 align-items-center">
                                             <div class="col-lg-4">
-                                                <label for="phoneInput" class="fw-semibold">Telefone: </label>
+                                                <label for="phoneInput" class="fw-semibold">Descricao: </label>
                                             </div>
                                             <div class="col-lg-8">
                                                 <div class="input-group">
                                                     <div class="input-group-text"><i class="feather-phone"></i></div>
-                                                    <input type="text" class="form-control" name="phoneInput" placeholder="Numeros Telefonicos do Gestor/Banco">
+                                                    <input type="text" class="form-control" name="phoneInput" placeholder="Descricao">
                                                 </div>
                                             </div>
                                         </div>
                                         
                                           <div class="row mb-4 align-items-center">
                                             <div class="col-lg-4">
-                                                <label for="designationInput" class="fw-semibold">Número de Conta: </label>
+                                                <label for="designationInput" class="fw-semibold">Criada Por: </label>
                                             </div>
                                             <div class="col-lg-8">
                                                 <div class="input-group">
                                                     <div class="input-group-text"><i class="feather-briefcase"></i></div>
-                                                    <input type="text" class="form-control" id="designationInput" placeholder="Numero de Conta">
+                                                    <input type="text" class="form-control" id="designationInput" placeholder="Usuario">
                                                 </div>
                                             </div>
-                                        </div>                                       
-                                        <div class="row mb-4 align-items-center">
-                                            <div class="col-lg-4">
-                                                <label for="designationInput" class="fw-semibold">NIB: </label>
-                                            </div>
-                                            <div class="col-lg-8">
-                                                <div class="input-group">
-                                                    <div class="input-group-text"><i class="feather-briefcase"></i></div>
-                                                    <input type="text" class="form-control" id="designationInput" placeholder="NIB">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row mb-4 align-items-center">
-                                            <div class="col-lg-4">
-                                                <label for="designationInput" class="fw-semibold">Swift: </label>
-                                            </div>
-                                            <div class="col-lg-8">
-                                                <div class="input-group">
-                                                    <div class="input-group-text"><i class="feather-briefcase"></i></div>
-                                                    <input type="text" class="form-control" id="designationInput" placeholder="Swift">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row mb-4 align-items-center">
-                                            <div class="col-lg-4">
-                                                <label for="addressInput_2" class="fw-semibold">Endereço do Balção : </label>
-                                            </div>
-                                            <div class="col-lg-8">
-                                                <div class="input-group">
-                                                    <div class="input-group-text"><i class="feather-map-pin"></i></div>
-                                                    <textarea class="form-control" id="addressInput_2" cols="30" rows="3" placeholder="Endereço do Balção"></textarea>
-                                                </div>
-                                            </div>
-                                        </div>                                       
-                                    
-                                    
-                                        <div class="row mb-4 align-items-center">
-                                            <div class="col-lg-4">
-                                                <label for="dateofBirth" class="fw-semibold">Data de Abertura: </label>
-                                            </div>
-                                            <div class="col-lg-8">
-                                                <div class="input-group">
-                                                    <div class="input-group-text"><i class="feather-calendar"></i></div>
-                                                    <input class="form-control" id="dateofBirth" placeholder="Data da Abertura">
-                                                </div>
-                                            </div>
-                                        </div>										 
-                                        
-                                        <div class="row mb-4 align-items-center">
-                                            <div class="col-lg-4">
-                                                <label class="fw-semibold">Estado do Conta: </label>
-                                            </div>
-                                            <div class="col-lg-8">
-                                                <select class="form-control" data-select2-selector="status">
-                                                    <option value="success" data-bg="bg-success" selected>Activo</option>
-                                                    <option value="warning" data-bg="bg-warning">Inativo</option>
-                                                    <option value="danger" data-bg="bg-danger">Suspensa</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="row mb-0 align-items-center">
-                                            <div class="col-lg-4">
-                                                <label class="fw-semibold">Tipo de Conta: </label>
-                                            </div>
-                                            <div class="col-lg-8">
-                                                <select class="form-control" data-select2-selector="privacy">
-                                                    <option value="everyone" data-icon="feather-lock" selected>Privado</option>
-                                                    <option value="onlyme" data-icon="feather-globe">Empresarial</option>
-                                                </select>
-                                            </div>
-                                        </div>
-
-                                        
+                                        </div>                                                                        
+                                       
                                         <p></p>
                                         <p></p>
-                                        
-
-                                                    
+         
                                          <button type="submit" class="btn btn-success" name="submit">Cadastrar</button>
                         
                                         </form>
